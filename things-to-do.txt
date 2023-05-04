@@ -1,0 +1,75 @@
+--- Basic Git Workflow ---
+1. Clone Repository
+2. Create Branch
+3. Publish Branch
+4 Do Your Stuffs
+5. Add Your Changes
+6. Commit Your Changes With Message
+7. Switch to Master Branch
+8. Update Master Branch with Remote
+9. Switch Back to Own Branch
+10. Merge Own Branch with Master
+10.1 Scenario 1: No Conflict
+10.2 Scenario 2: Conflict
+11. Conflicts Resolved
+12. Push to your Own Remote Branch
+13. Create Pull Request
+14. Wait for Approval
+15. Merge Pull Request
+16. 
+
+
+
+--- Basic Git Workflow by ChatGPT ---
+Creating a Repository:
+To create a new Git repository, use the command: git init
+To clone an existing repository, use the command: git clone <repository URL>
+Adding and Committing Changes:
+To add all changes in the current directory to the staging area, use the command: git add .
+To add specific files to the staging area, use the command: git add <file>
+To commit changes with a message, use the command: git commit -m "commit message"
+Branching and Merging:
+To create a new branch, use the command: git branch <branch name>
+To switch to a different branch, use the command: git checkout <branch name>
+To merge changes from one branch to another, use the command: git merge <branch name>
+Viewing and Reverting Changes:
+To view the status of your repository, use the command: git status
+To view the changes made to a file, use the command: git diff <file>
+To revert to a previous commit, use the command: git revert <commit ID>
+Pushing and Pulling:
+To push changes to a remote repository, use the command: git push <remote name> <branch name>
+To pull changes from a remote repository, use the command: git pull <remote name> <branch name>
+Resolving Merge Conflicts:
+To view merge conflicts in a file, use the command: git diff
+To abort a merge, use the command: git merge --abort
+To manually resolve a conflict, edit the file with the conflict and then use the command: git add <file>
+Remember that this is just a cheat sheet and not a complete guide. For more detailed information, refer to the Git documentation or seek help from the Git community.
+
+--- Advanced Git Workflow by ChatGPT ---
+Clone a Repository:
+Navigate to the folder where you want to clone the repository
+Run the command: git clone <repository URL>
+Create a Feature Branch:
+Run the command: git checkout -b feature/<feature name> to create a new feature branch and switch to it
+Work on the Feature:
+Make changes to the codebase and commit frequently using git add and git commit
+Pull Changes from the Remote Repository:
+Before pushing changes, pull any changes made by other team members to the remote repository using git pull to avoid merge conflicts
+Rebase the Feature Branch:
+To keep the feature branch up to date with the latest changes in the base branch, run the command: git rebase <base branch> while in the feature branch
+Resolve Merge Conflicts:
+If there are any merge conflicts, Git will prompt you to resolve them manually by editing the conflicting files
+Use git add to stage the resolved files, and git rebase --continue to continue with the rebase process
+Push Changes to the Remote Repository:
+Once the feature is complete and all conflicts are resolved, push the feature branch to the remote repository using git push -u origin feature/<feature name>
+Create a Pull Request:
+Open a pull request on the remote repository to request that the feature branch be merged into the base branch
+Reviewers can then review the changes and request further changes or approve the pull request
+Merge the Feature Branch:
+Once the pull request is approved, merge the feature branch into the base branch using git merge feature/<feature name> while in the base branch
+Resolve any merge conflicts that may arise during the merge process
+Push Changes to the Remote Repository:
+Push the changes to the remote repository using git push
+Remember to communicate with your team members frequently and use proper naming conventions for branches and commits. Additionally, use tools like GitLab, GitHub, or Bitbucket to manage your repositories and collaborate with others.
+
+This workflow can help teams avoid merge conflicts, keep their codebase up to date, and ensure that features are properly reviewed and approved before being merged into the base branch.
