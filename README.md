@@ -3,6 +3,16 @@
 ## **Table of Contents**
 ### 1. [Installation of Git](###installation-of-git)
 ### 2. [Having a GitHub Account](###having-a-gitHub-account)
+### 3. [Basic Git Commands](##basic-git-commands)
+### 4. Cloning Repository
+### 5. Working With Remote Branches
+### 6. Staging and Commiting
+### 7. Fetching And Pulling 
+### 8. Merging Repositories 
+### 9. Handling Merge Conflicts
+### 10. Pushing To Remote Branch
+### 11. Pull Request
+
 ---
 ### 1. Installation of Git
 * For Window Installers, [click here](https://git-scm.com/download/win) and download the  **Standalone Installer for 64-bit for Windows Setup**
@@ -11,16 +21,8 @@
 ---
 ## Summary
 This document covers basics of working with a repository using git commands. 
-## Content
-1. [Basic Git Commands](#basic-git-commands)
-2. Cloning Repository
-3. Working With Remote Branches
-4. Staging and Commiting
-5. Fetching And Pulling 
-6. Merging Repositories 
-7. Handling Merge Conflicts
-8. Pushing To Remote Branch
-9. Pull Request
+
+
 
 ## Basic Git Commands
 This section provides a list of frequently used git commands. This list is non-exhaustive and does not cover all the git commands.
