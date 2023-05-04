@@ -1,5 +1,14 @@
 # Learning-and-Testing-with-Github
-
+---
+## **Table of Contents**
+### 1. [Installation of Git](###installation-of-git)
+### 2. [Having a GitHub Account](###having-a-gitHub-account)
+---
+### 1. Installation of Git
+* For Window Installers, [click here](https://git-scm.com/download/win) and download the  **Standalone Installer for 64-bit for Windows Setup**
+---
+### 2. Having a GitHub Account
+---
 ## Summary
 This document covers basics of working with a repository using git commands. 
 ## Content
@@ -139,7 +148,4 @@ Common commands:
 
 ## Cloning repository
 This section covers the cloning of an existing remote repository to the local computer.
-
-
-
 
