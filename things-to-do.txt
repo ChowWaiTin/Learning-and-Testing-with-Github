@@ -18,7 +18,14 @@
 15. Merge Pull Request
 16. 
 
+Others to consider
+1. Stash changes
+2. Git hub installation + Setup
+3. Repo creation -> git init??
+4. Rebase?
 
+* Which file to update??
+* Branch to update
 
 --- Basic Git Workflow by ChatGPT ---
 Creating a Repository:

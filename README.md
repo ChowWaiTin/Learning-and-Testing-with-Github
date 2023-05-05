@@ -1,28 +1,23 @@
 # Learning-and-Testing-with-Github
+
+## Summary
+This document covers basics of working with a repository using git commands. Different example workflows will be explored.
+
+## Pre-requisites
+This guide assumes that the following has been setup. Please refer to the [SETUP.md](SETUP.md) document for a guide to set up the required 
+
+* [Installation of Git](SETUP.md#1-installation-of-git)
+* [Having a GitHub Account](SETUP.md#2-setting-up-a-github-account)
+* [Available Repository](SETUP.md#3-available-repository)
 ---
 ## **Table of Contents**
-### 1. Pre-requiesites
-* [Installation of Git](###installation-of-git)
-* [Having a GitHub Account](###having-a-gitHub-account)
----
-### 1. Installation of Git
-* For Window Installers, [click here](https://git-scm.com/download/win) and download the  **Standalone Installer for 64-bit for Windows Setup**
----
-### 2. Having a GitHub Account
----
-## Summary
-This document covers basics of working with a repository using git commands. 
-## Content
-1. [Basic Git Commands](#basic-git-commands)
-2. Cloning Repository
-3. Working With Remote Branches
-4. Staging and Commiting
-5. Fetching And Pulling 
-6. Merging Repositories 
-7. Handling Merge Conflicts
-8. Pushing To Remote Branch
-9. Pull Request
 
+1. [Basic Git Commands](#basic-git-commands)
+2. [Cloning Repository](#cloning-repository)
+3. [Basic Flow - No Merge Conflict](#basic-flow---no-merge-conflict)
+4. [Basic Flow - With Merge Conflict](#basic-flow---with-merge-conflict)
+
+---
 ## Basic Git Commands
 This section provides a list of frequently used git commands. This list is non-exhaustive and does not cover all the git commands.
 
@@ -146,7 +141,32 @@ Common commands:
     # Delete all stash
     git stash clear
     ```
+---
+## Cloning Repository
+This section covers the cloning of an existing remote repository to a local repository on a local computer. This will require a github account which is granted access to this repository.
 
-## Cloning repository
-This section covers the cloning of an existing remote repository to the local computer.
 
+---
+## Basic Flow - No Merge Conflict
+This section covers the basic flow of pulling the source code from a remote repository, making modifications, pushing the modifications to the remote repository and creating a pull request
+
+1. Fetching And Pulling From Main Branch
+2. Creating Local Branch and Publishing Branch
+3. Modifications, Staging and Commiting
+4. Fetching And Pulling From Main Branch
+5. Merging Repositories 
+6. Pushing To Remote Branch
+7. Pull Request
+
+---
+## Basic Flow - With Merge Conflict
+This section covers the basic flow of pulling the source code from a remote repository, making modifications and handling merge conflicts, pushing the modifications to the remote repository and creating a pull request
+
+1. Fetching And Pulling From Main Branch
+2. Creating Local Branches 
+3. Modifications, Staging and Commiting In Different Branches
+4. Fetching And Pulling From Main Branch
+5. Merging Repositories 
+6. Handling Merge Conflicts
+7. Pushing To Remote Branch / Publishing Branch
+8. Pull Request
