@@ -1,1 +1,0 @@
-# Step-by-Step Instructions for Opening Windows Command Line Interface (CLI)
