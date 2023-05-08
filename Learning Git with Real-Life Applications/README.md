@@ -16,25 +16,14 @@ Before the gathering the team together to plan for the trip, the lead developer 
 To have a central repository for collaboration, the lead developer would need to initalise a repository for the team to plan the trip.
 
 To do so, the lead developer would need to:
-1. Initialise (Create) A Remote Repository on GitHub Webpage
-2. Initialise (Create) A Local Repository on Local Device
-3. Initialise Initial Files for Local Repository
+1. [Initialise (Create) A Remote Repository on GitHub Webpage](./2.%20Getting%20Started/1._Create_Remote_Repo.md)
+2. [Initialise (Create) A Local Repository on Local Device](./2.%20Getting%20Started/2._Create_Local_Repo.md)
+3. [Initialise Initial Files for Local Repository](./2.%20Getting%20Started/3._Initial_Files_Local_Repo%20copy.md)
     * Add Files to Local Repository
     * Commit the Changes to Local Repository
-4. Add Git Repository as Remote Location to Local Repository
+4. [Add Git Repository as Remote Location to Local Repository](./2.%20Getting%20Started/4._Remote_to_Local_Repo.md)
 
-### 2.1 Create A Remote Repository on GitHub Webpage
-1. Login to [GitHub](https://github.com/login)
 
-    ![GitHub Login Page](./images/github_login.png)
-
-2. Click on ![New Repository Button](./images/new_repo_btn.png) 
-
-    ![GitHub Home Page](./images/github_home.png)
-
-3. Give the Repository a Name and Description, and Choose whether it should be Public or Private
-
-    ![Create Repository Page](./images/new_repo_page.png)
 
 #### 2.1.2 Creating A Local Repository on your Local Device
 1. Create a Folder for the Planning of the Trip
