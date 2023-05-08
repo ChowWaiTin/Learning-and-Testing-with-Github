@@ -17,11 +17,12 @@ To have a central repository for collaboration, the lead developer would need to
 
 To do so, the lead developer would need to:
 1. [Initialise (Create) A Remote Repository on GitHub Webpage](./2.%20Getting%20Started/1._Create_Remote_Repo.md)
-2. [Initialise (Create) A Local Repository on Local Device](./2.%20Getting%20Started/2._Create_Local_Repo.md)
-3. [Initialise Initial Files for Local Repository](./2.%20Getting%20Started/3._Initial_Files_Local_Repo%20copy.md)
+2. [Adding Collaborators](./2.%20Getting%20Started/2._Add_Collaborators.md)
+2. [Initialise (Create) A Local Repository on Local Device](./2.%20Getting%20Started/3._Create_Local_Repo.md)
+3. [Initialise Initial Files for Local Repository](./2.%20Getting%20Started/4._Initial_Files_Local_Repo%20copy.md)
     * Add Files to Local Repository
     * Commit the Changes to Local Repository
-4. [Add Git Repository as Remote Location to Local Repository](./2.%20Getting%20Started/4._Remote_to_Local_Repo.md)
+4. [Add Git Repository as Remote Location to Local Repository](./2.%20Getting%20Started/5._Remote_to_Local_Repo.md)
 
 
 
