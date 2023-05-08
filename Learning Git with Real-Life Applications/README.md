@@ -20,6 +20,7 @@ To create a repository for the planning of the trip, the lead developer can proc
     ![GitHub Login Page](./images/github_login.png)
 
 2. Click on ![New Repository Button](./images/new_repo_btn.png) 
+
     ![GitHub Home Page](./images/github_home.png)
 
 3. 
