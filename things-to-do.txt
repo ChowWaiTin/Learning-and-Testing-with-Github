@@ -80,3 +80,4 @@ Push the changes to the remote repository using git push
 Remember to communicate with your team members frequently and use proper naming conventions for branches and commits. Additionally, use tools like GitLab, GitHub, or Bitbucket to manage your repositories and collaborate with others.
 
 This workflow can help teams avoid merge conflicts, keep their codebase up to date, and ensure that features are properly reviewed and approved before being merged into the base branch.
+

@@ -1,14 +1,19 @@
-# Setting up of Pre-requisites
+# Learning Git with Real-Life Applications
 
-## Summary
-This file acts as a guide to help setup the required pre-requisites.
+## Context of Real-Life Application
+A group of developers decided to go on vacation trip together after their recent project has been deployed and commisioned. The lead developer of the developement team decided to use GitHub to store the details of their vacation trip such as the itenary, budget planning and etc.
 
----
-## 1. Installation of Git
-* For Window Installers, [click here](https://git-scm.com/download/win) and download the  **Standalone Installer for 64-bit for Windows Setup**
+## Setting up the Pre-requisites
+Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
-## 2. Setting Up a GitHub Account
-* Proceed to [GitHub](https://github.com/) and sign up for an account.
+1. Having [Git Installed]() on their Local Device
+2. Having a [GitHub Account]()
 
-## 3. Available Repository
-* This example will use the current repository as the working repository. Please obtain access to this repository.
+## Getting Started
+After the team of developers have the following pre-requisites set-up, the lead developer would need to [Initialise a Git Repository]() in GitHub using the Command-Line-Interface(CLI). 
+The [Git Repository]() is used as a virtual storage that stores information of their trip and for the developers to track the changes made in the planning of the trip.
+
+After initialising the repository, the developers would need 
+
+## Initialising A Repository
+To initliase the repository, the lead developer would have to do the following procedures via 
