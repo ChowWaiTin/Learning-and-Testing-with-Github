@@ -73,7 +73,7 @@ Common commands:
     git push -D <remote_name> <branch_name>
 
     ```
-- Add remote connection
+- Add remote connection (Typically remote_name -> origin)
     ```ps1
     git remote add <remote name> <remote https (or) ssh>
     ```
