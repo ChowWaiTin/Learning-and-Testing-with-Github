@@ -18,14 +18,7 @@
 15. Merge Pull Request
 16. 
 
-Others to consider
-1. Stash changes
-2. Git hub installation + Setup
-3. Repo creation -> git init??
-4. Rebase?
 
-* Which file to update??
-* Branch to update
 
 --- Basic Git Workflow by ChatGPT ---
 Creating a Repository:
@@ -80,4 +73,110 @@ Push the changes to the remote repository using git push
 Remember to communicate with your team members frequently and use proper naming conventions for branches and commits. Additionally, use tools like GitLab, GitHub, or Bitbucket to manage your repositories and collaborate with others.
 
 This workflow can help teams avoid merge conflicts, keep their codebase up to date, and ensure that features are properly reviewed and approved before being merged into the base branch.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Common issues that beginners may encounter when using Git:
+
+Forgetting to initialize a repository:
+When working on a new project, it's important to initialize a Git repository by running git init in the project's root directory. Without initializing a repository, Git won't track any changes made to the project files.
+
+Adding unnecessary files to the repository:
+It's important to only add necessary files to the Git repository. For example, files like build artifacts, temporary files, and log files should be excluded from the repository. Adding unnecessary files to the repository can make it bloated and difficult to work with.
+
+Not committing changes regularly:
+One of the most important aspects of using Git is committing changes regularly. If you don't commit changes regularly, it can become difficult to track the changes you've made over time. It's a good idea to commit changes whenever you complete a task or make a significant change to the project.
+
+Not writing descriptive commit messages:
+When committing changes, it's important to write descriptive commit messages that explain the changes you've made. This makes it easier for other developers to understand the changes you've made and why you made them.
+
+Conflicts during merging:
+When working on a project with multiple developers, it's common to encounter conflicts during merging. Conflicts occur when two developers make changes to the same file or code section. It's important to resolve conflicts as soon as possible to avoid issues down the line.
+
+Accidentally deleting or modifying files:
+Git makes it easy to modify or delete files within a project, but it's important to be careful when doing so. Accidentally deleting or modifying files can cause issues for other developers working on the project.
+
+Pushing to the wrong branch:
+When working with multiple branches, it's important to make sure you're pushing changes to the correct branch. Pushing changes to the wrong branch can cause issues with the project's history and make it difficult to track changes over time.
+
+These are just a few of the issues that beginners may encounter when using Git. The best way to avoid these issues is to be careful and deliberate when working with Git, and to ask for help when needed.
+
+-- Back Story--
+
+1. A group of friends is planning a trip.
+2. Text files containing the itinerary for the trip is created by the person setting up the repository. (Create, Init)
+
+Creating branches, push, pull, commit, stash, merge
+- Friend A has trouble deciding on the plan and needs help from someone. Friend B decides to help but... (add in the possible issues)
+    - Forget to pull
+    - Work on the same branch.
+    
+
+- Friend C and D are tasked to decide on food choices. (possible issues for conflicts)
+    - Branch out from same head then merge
+
+- After having multiple issues with git, they decide to implement pull request.
+
+A group of friends decided to plan for a trip. They have decided to use Git to plan for their trip. In order to do so, they would need to have the following setup required.:
+1. 
+
+The leader of this trip create a repository to store all the requirwed itenary of their
+..
+.
+.
+.
+.
+
+
+1. back Story
+Setup
+    1. Create Remote Repo ()
+    2. Add Collaborator ()
+    3. Create Local Repo 
+    4. Initial Commits (Create Intial Files for Repo)
+        i. Most Basic File Structure
+        ii File Structure for this Back Story
+        iii git add, git commit -m "message", git push
+    5. Link Local Repo to Remote Repo
+    6. Clone Repo to Local Device
+    7. Start Collaborating
+        i. git checkout -b
+        ii Do your Stuffs
+    8. Collaborating
+        i Issues Faced
+
+
+Task : Create repository (setup for trip) - Wai Tin
+    - Learn how to create remote repositories
+
+Task : Setup local repository and link to remote repo = Wai Tin
+    - git init
+    - git remote add
+    - git config
+    - git add , git commit
+    - git push
+
+Task : Clone repo (for friends) - Wai Tin
+    - main
+    - learn how to clone repo
+
+
+Task : Developer A updates itenary - Xun
+    - itenary/activites
+    - git checkout -b
+    - recap basic flow
+
+Task : A and B updates same itenary - Xun
+    - conflict within same branch (within file)
+
+Task : A modified text file and B deleted text fdile - Bao Jin
+    - conflict within same branch (add/remove file conflict)
+
+Task : A and B update food on different branch - Bao Jin
+    - food/locations
+    - conflict when merging branches
+
+Task: Pull request from
+    - pull request itenary/activities -> main , food/locations -> main
+
 
