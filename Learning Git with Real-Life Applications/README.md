@@ -27,14 +27,14 @@ To create a repository for the planning of the trip, the lead developer can proc
 
     ![Create Repository Page](./images/new_repo_page.png)
 
-#### 2.1.2 Via the Command Line Interface
-1. Open the Window Command Line Interface
-    * Note: For a step-by-step guide, [click here](./2.%20Getting%20Started/2.1.2/Opening_Windows_CLI.md)
-
-2. Create a Folder for the Planning of the Trip
+#### 2.1.2 Creating A Local Repository on your Local Device
+1. Create a Folder for the Planning of the Trip
     * Note: For a step-by-step guide, [click here](./2.%20Getting%20Started/2.1.2/Create_Folder_CLI.md)
 
-3. 
+2. Open the Window Command Line Interface (CLI)
+    * Note: For a step-by-step guide, [click here](./2.%20Getting%20Started/2.1.2/Opening_Windows_CLI.md)
+
+3. Use the  
 
 
 After initialising the git repository, the developers would need to 
