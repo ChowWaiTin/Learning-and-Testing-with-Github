@@ -26,7 +26,7 @@ Subsequent sections will cover some of these commands in greater detail.
 Common commands:
 - Cloning repository
     ```ps1
-    git clone <remote_branch_url (or) ssh>
+    git clone <remote_repo_url (or) ssh>
     ```
 - Git Branches (Local)
     ```ps1
