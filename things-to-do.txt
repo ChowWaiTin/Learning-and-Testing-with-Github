@@ -127,3 +127,56 @@ The leader of this trip create a repository to store all the requirwed itenary o
 .
 .
 
+
+1. back Story
+Setup
+    1. Create Remote Repo ()
+    2. Add Collaborator ()
+    3. Create Local Repo 
+    4. Initial Commits (Create Intial Files for Repo)
+        i. Most Basic File Structure
+        ii File Structure for this Back Story
+        iii git add, git commit -m "message", git push
+    5. Link Local Repo to Remote Repo
+    6. Clone Repo to Local Device
+    7. Start Collaborating
+        i. git checkout -b
+        ii Do your Stuffs
+    8. Collaborating
+        i Issues Faced
+
+
+Task : Create repository (setup for trip) - Wai Tin
+    - Learn how to create remote repositories
+
+Task : Setup local repository and link to remote repo = Wai Tin
+    - git init
+    - git remote add
+    - git config
+    - git add , git commit
+    - git push
+
+Task : Clone repo (for friends) - Wai Tin
+    - main
+    - learn how to clone repo
+
+
+Task : Developer A updates itenary - Xun
+    - itenary/activites
+    - git checkout -b
+    - recap basic flow
+
+Task : A and B updates same itenary - Xun
+    - conflict within same branch (within file)
+
+Task : A modified text file and B deleted text fdile - Bao Jin
+    - conflict within same branch (add/remove file conflict)
+
+Task : A and B update food on different branch - Bao Jin
+    - food/locations
+    - conflict when merging branches
+
+Task: Pull request from
+    - pull request itenary/activities -> main , food/locations -> main
+
+
