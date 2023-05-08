@@ -9,12 +9,21 @@ Before the team of developers can plan for their trip, the lead developer would 
 - Having [Git Installed]() on their Local Device
 - Having a [GitHub Account]()
 
-## 2. Getting Started
+## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
 
-### 2.1 Create a Repository
-To create a repository for the planning of the trip, the lead developer can procceed by creating using the [Command Line Interface (CLI)](####2.1.1-via-the-command-line-nterface) or via the [GitHub Webpage](####2.1.2-via-the-gitHub-webpage) 
+Before the gathering the team together to plan for the trip, the lead developer would need to create a **central shared folder** where the team can collaborate together to plan for the trip. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in.
 
-#### 2.1.1 Create A Remote Repository on GitHub Webpage
+To have a central repository for collaboration, the lead developer would need to initalise a repository for the team to plan the trip.
+
+To do so, the lead developer would need to:
+1. Initialise (Create) A Remote Repository on GitHub Webpage
+2. Initialise (Create) A Local Repository on Local Device
+3. Initialise Initial Files for Local Repository
+    * Add Files to Local Repository
+    * Commit the Changes to Local Repository
+4. Add Git Repository as Remote Location to Local Repository
+
+### 2.1 Create A Remote Repository on GitHub Webpage
 1. Login to [GitHub](https://github.com/login)
 
     ![GitHub Login Page](./images/github_login.png)
