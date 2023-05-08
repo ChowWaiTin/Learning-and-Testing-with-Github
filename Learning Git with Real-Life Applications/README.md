@@ -14,7 +14,7 @@ Before the team of developers can plan for their trip, the lead developer would 
 ### 2.1 Create a Repository
 To create a repository for the planning of the trip, the lead developer can procceed by creating using the [Command Line Interface (CLI)](####2.1.1-via-the-command-line-nterface) or via the [GitHub Webpage](####2.1.2-via-the-gitHub-webpage) 
 
-#### 2.1.1 Via the GitHub Webpage
+#### 2.1.1 Create A Remote Repository on GitHub Webpage
 1. Login to [GitHub](https://github.com/login)
 
     ![GitHub Login Page](./images/github_login.png)
@@ -23,8 +23,9 @@ To create a repository for the planning of the trip, the lead developer can proc
 
     ![GitHub Home Page](./images/github_home.png)
 
-3. 
-4. 
+3. Give the Repository a Name and Description, and Choose whether it should be Public or Private
+
+    ![Create Repository Page](./images/new_repo_page.png)
 
 #### 2.1.2 Via the Command Line Interface
 1. Open the Window Command Line Interface
