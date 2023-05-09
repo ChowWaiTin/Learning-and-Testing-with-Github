@@ -136,3 +136,15 @@
     - Accept some changes of Developer A and some from Developer B
 
 9. After resolving all the changes, Developer A created a commit to finalize the merge. The result of the merge is in food/location branch.
+
+
+## Lesson Learnt
+1. Recap branch creation and publishing branch to remote repository
+
+2. Recap basic flow of any updates
+
+3. Understand branch merger
+
+4. Understand conflicts during branch merger
+
+5. Understand conflicts resolution.

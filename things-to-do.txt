@@ -133,7 +133,7 @@ Setup
     1. Create Remote Repo ()
     2. Add Collaborator ()
     3. Create Local Repo 
-    4. Initial Commits (Create Intial Files for Repo)
+    4. Initial Commits (Create Initial Files for Repo)
         i. Most Basic File Structure
         ii File Structure for this Back Story
         iii git add, git commit -m "message", git push
@@ -161,15 +161,15 @@ Task : Clone repo (for friends) - Wai Tin
     - learn how to clone repo
 
 
-Task : Developer A updates itenary - Xun
-    - itenary/activites
+Task : Developer A updates itinerary - Xun
+    - itinerary/activities
     - git checkout -b
     - recap basic flow
 
-Task : A and B updates same itenary - Xun
+Task : A and B updates same itinerary - Xun
     - conflict within same branch (within file)
 
-Task : A modified text file and B deleted text fdile - Bao Jin
+Task : A modified text file and B deleted text file - Bao Jin
     - conflict within same branch (add/remove file conflict)
 
 Task : A and B update food on different branch - Bao Jin
@@ -177,6 +177,6 @@ Task : A and B update food on different branch - Bao Jin
     - conflict when merging branches
 
 Task: Pull request from
-    - pull request itenary/activities -> main , food/locations -> main
+    - pull request itinerary/activities -> main , food/locations -> main
 
 
