@@ -161,13 +161,19 @@ Task : Clone repo (for friends) - Wai Tin
     - learn how to clone repo
 
 
-Task : Developer A updates itenary - Xun
-    - itenary/activites
-    - git checkout -b
-    - recap basic flow
+Task : Developer A updates itinerary - Xun
+    - Friend A is tasked to come up with the itinerary for day 1.
+    - He edits the text file for Day 1 itinerary and saved the file locally.
+    - So in order to share it with the group, he has to "push" the updates into the repository. (git push)
 
-Task : A and B updates same itenary - Xun
-    - conflict within same branch (within file)
+Task : A and B updates same itinerary - Xun
+    - Friend A edits text file for Day 1 itinerary. While planning the schedule,
+      he has difficulty choosing between one of the two places.
+    - Friend B decides to help, so he checkout friend A's branch.                               (git checkout)
+    - Both of them ended up working in the same branch, on the same file.
+    - Friend B finished editing the file and pushes the edit.                                   (git push)
+    - At the same time, friend A also made some changes to the file and pushes the edit.        (git push)
+    - Conflict happens depending on who pushed later.                                           (conflict )    
 
 Task : A modified text file and B deleted text fdile - Bao Jin
     - conflict within same branch (add/remove file conflict)
