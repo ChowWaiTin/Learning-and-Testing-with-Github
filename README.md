@@ -26,7 +26,7 @@ Subsequent sections will cover some of these commands in greater detail.
 Common commands:
 - Cloning repository
     ```ps1
-    git clone <remote_branch_url (or) ssh>
+    git clone <remote_repo_url (or) ssh>
     ```
 - Git Branches (Local)
     ```ps1
@@ -73,9 +73,9 @@ Common commands:
     git push -D <remote_name> <branch_name>
 
     ```
-- Add remote connection
+- Add remote connection (Typically remote_name -> origin)
     ```ps1
-    git remote add <remote name> <remote https (or) ssh>
+    add <remote name> <remote https (or) ssh>
     ```
 - Fetch / update branch from remote branch
     ```ps1
@@ -97,7 +97,11 @@ Common commands:
 - Pulling from remote repository
     ```ps1
     # Pull from remote repository
-    git pull origin
+    git pull <remote_name>
+    # e.g. git pull origin
+
+    # Pull specific remote branch to local branch/create branch
+    git pull <remote_name> <remote_branch_name>:<new_local_branch>
     ```
 - Staging
     ```ps1
@@ -123,6 +127,10 @@ Common commands:
 
     # Push current branch to a remote branch matching the name specified
     git push <remote_name> HEAD:<remote_branch_name>
+    git push
+
+    # Push current branch and create new branch
+    git push -u <remote_name> <create_branch_name>
     ```
 - Stashing changes
     ```ps1
@@ -140,6 +148,12 @@ Common commands:
 
     # Delete all stash
     git stash clear
+    ```
+
+- Updating the local repo to stop tracking deleted remote repo
+    ```ps1
+    git remote prune <remote_name>
+    # e.g. git remote prune origin
     ```
 ---
 ## Cloning Repository
