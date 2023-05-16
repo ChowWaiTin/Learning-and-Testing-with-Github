@@ -63,10 +63,8 @@
     - Developer B update the file: foodoutlet.txt
         ```
         # Food Outlets
-        Restaurant A : 11 Mystreet XXXXX
-                    Spicy Food
-        Eatery B : 35 Far street XXXXX
-                    Local Delights              
+        Meiji Shrine area: Kagari Ramen, Harajuku Gyoza Lou, or Gyukatsu Motomura
+        Tokyo Skytree: Sky Restaurant 634, Sumida Aquarium Café & Restaurant, or Soranoiro Nippon            
         ```
 
 4. Upon completion of his task, Developer B decided to stage his changes, make a commit. He subsequently push his changes to his remote branch (food_locations_dev_B) as his task was completed
@@ -92,10 +90,8 @@
     - Developer A update the file: foodoutlet.txt
         ```
         # Food Plan
-        Restaurant X : 5 Way Street XXXXX
-                    Mixed Cusine
-        Eatery N : 15 Fastfood Street XXXXX
-                    Fast Food   
+        Fushimi Inari Shrine: Udon Yamaokaya, Inari No Chanya, or Sushi Mamire
+        Gion district: Gion Kappa, Gion Nanba, or Gion Tokuya 
         ```
 
 6. Upon completion of his task, Developer A decided to stage his changes, make a commit. He subsequently pushed his changes to the food/locations repository
