@@ -20,9 +20,9 @@ To do so, the lead developer would need to:
     * This is to allow the team to store the information of their trip on the remotely
 2. [Adding Collaborators](./2.%20Getting%20Started/2._Add_Collaborators.md)
     * This is to allow the team to be able to collaborate and plan together for the trip
-2. [Initialise (Create) A Local Repository on Local Device](./2.%20Getting%20Started/3._Create_Local_Repo.md)
+2. [Initialise (Create) A Local Git Repository on Local Device](./2.%20Getting%20Started/3._Create_Local_Repo.md)
     * This repository (file folder) will contain all the files and folders associated with the planning of the vacation trip.
-3. [Initialise Initial Files for Local Repository](./2.%20Getting%20Started/4._Initial_Files_Local_Repo%20copy.md)
+3. [Initialise Initial Files for Local Git Repository](./2.%20Getting%20Started/4._Initial_Files_Local_Repo%20copy.md)
     * Add Files to Local Repository
     * Commit the Changes to Local Repository
 4. [Add Git Repository as Remote Location to Local Repository](./2.%20Getting%20Started/5._Remote_to_Local_Repo.md)
