@@ -175,7 +175,7 @@ Task : A and B updates same itinerary - Xun
     - Friend B finished editing the file and pushes the edit.                                   (git push)
     - At the same time, friend A also made some changes to the file and pushes the edit.        (git push)
     - Conflict happens depending on who pushed later.                                           (conflict )    
-
+>>>>>>>>> Temporary merge branch 2
 
 Task : A modified text file and B deleted text file - Bao Jin
     - conflict within same branch (add/remove file conflict)
