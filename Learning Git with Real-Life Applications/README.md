@@ -17,8 +17,11 @@ To have a central repository for collaboration, the lead developer would need to
 
 To do so, the lead developer would need to:
 1. [Initialise (Create) A Remote Repository on GitHub Webpage](./2.%20Getting%20Started/1._Create_Remote_Repo.md)
+    * This is to allow the team to store the information of their trip on the remotely
 2. [Adding Collaborators](./2.%20Getting%20Started/2._Add_Collaborators.md)
+    * This is to allow the team to be able to collaborate and plan together for the trip
 2. [Initialise (Create) A Local Repository on Local Device](./2.%20Getting%20Started/3._Create_Local_Repo.md)
+    * This repository (file folder) will contain all the files and folders associated with the planning of the vacation trip.
 3. [Initialise Initial Files for Local Repository](./2.%20Getting%20Started/4._Initial_Files_Local_Repo%20copy.md)
     * Add Files to Local Repository
     * Commit the Changes to Local Repository
