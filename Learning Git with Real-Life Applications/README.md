@@ -42,8 +42,10 @@ To do so, the lead developer would need to:
 
 7. [Push Changes to Global Git Repository](./2.%20Getting%20Started/7._Push_Global_Repository.md)
 
-## 3. Getting Started - Begin Collaborating
+## 3. Getting Started - Begin Collaborating (Cloning Global Repository to Local Device)
+To begin collaborating to plan the trip together, the developers can start by cloning the global repository into their local device.
 
+For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//1._Clone_Repo.md)! 
 
 
 
