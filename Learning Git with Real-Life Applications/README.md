@@ -6,8 +6,8 @@ A group of developers decided to go on vacation trip together after their recent
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
-- Having [Git Installed]() on their Local Device
-- Having a [GitHub Account]()
+- Having [Git Installed](./1.%20Setting%20up%20the%20Pre-requisites/Git%20Bash%20(Windows)%20Tutorial.mkv) on their Local Device
+- Having a [GitHub Account]
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
 
@@ -16,26 +16,36 @@ Before the gathering the team together to plan for the trip, the lead developer 
 To have a central repository for collaboration, the lead developer would need to initalise a repository for the team to plan the trip.
 
 To do so, the lead developer would need to:
-1. [Initialise (Create) A Remote Repository on GitHub Webpage](./2.%20Getting%20Started/1._Create_Remote_Repo.md)
-2. [Adding Collaborators](./2.%20Getting%20Started/2._Add_Collaborators.md)
-2. [Initialise (Create) A Local Repository on Local Device](./2.%20Getting%20Started/3._Create_Local_Repo.md)
-3. [Initialise Initial Files for Local Repository](./2.%20Getting%20Started/4._Initial_Files_Local_Repo%20copy.md)
-    * Add Files to Local Repository
-    * Commit the Changes to Local Repository
-4. [Add Git Repository as Remote Location to Local Repository](./2.%20Getting%20Started/5._Remote_to_Local_Repo.md)
 
+1. [Configure Global Setting for Git](./2.%20Getting%20Started/1._Git_Configure_Global_Settings.md)
 
+    *  This is to allow you to set default values for your user identity and preferred behaviors across all Git repositories on your development machine. 
 
-#### 2.1.2 Creating A Local Repository on your Local Device
-1. Create a Folder for the Planning of the Trip
-    * Note: For a step-by-step guide, [click here](./2.%20Getting%20Started/2.1.2/Create_Folder_CLI.md)
+2. [Initialise (Create) A Remote Repository on GitHub Webpage](./2.%20Getting%20Started/2._Create_Remote_Repo.md)
 
-2. Open the Window Command Line Interface (CLI)
-    * Note: For a step-by-step guide, [click here](./2.%20Getting%20Started/2.1.2/Opening_Windows_CLI.md)
+    * This is to allow the team to store the information of their trip on the remotely
 
-3. Use the  
+3. [Adding Collaborators](./2.%20Getting%20Started/3._Add_Collaborators.md)
 
+    * This is to allow the team to be able to collaborate and plan together for the trip
 
-After initialising the git repository, the developers would need to 
+4. [Initialise (Create) A Local Git Repository on Local Device](./2.%20Getting%20Started/4._Create_Local_Repo.md)
+
+    * This repository (file folder) will contain all the files and folders associated with the planning of the vacation trip.
+
+5. [Making Initial Commits (Initialise Initial Files) for Local Git Repository](./2.%20Getting%20Started/5._Initial_Files_Local_Repo.md)
+
+    * Add Initial Files to Local Git Repository
+    * Commit the Changes to Local Git Repository
+
+6. [Connect Local Git Repository to Global Git Repository](./2.%20Getting%20Started/6._Remote_to_Local_Repo.md)
+
+7. [Push Changes to Global Git Repository](./2.%20Getting%20Started/7._Push_Global_Repository.md)
+
+## 3. Getting Started - Begin Collaborating (Cloning Global Repository to Local Device)
+To begin collaborating to plan the trip together, the developers can start by cloning the global repository into their local device.
+
+For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//1._Clone_Repo.md)! 
+
 
 

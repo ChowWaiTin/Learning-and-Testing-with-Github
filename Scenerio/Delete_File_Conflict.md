@@ -26,9 +26,9 @@
     - Developer A added modifications
         ```
         # Activities file
-        Visit National Park - Can be added to day 1
-        Visit Museum - Can be added to day 2
-        Shopping at A Mall - Can be added to day 2
+        Visit the Meiji Shrine - A beautiful Shinto shrine located in the heart of Tokyo's bustling Shibuya district
+
+        Lake Ashi - Relaxing boat ride 
         ```
 
 2. Meanwhile, Developer B found that it was better to place the information on the activities together with the itinerary plan in the itinerary.txt file. After some discussion with the team, he began the process of transferring the information and deleted the activities.txt file. This change was not made aware to Developer A.
