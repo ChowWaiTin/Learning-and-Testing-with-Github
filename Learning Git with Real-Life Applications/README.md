@@ -33,16 +33,14 @@ To do so, the lead developer would need to:
 
     * This repository (file folder) will contain all the files and folders associated with the planning of the vacation trip.
 
-5. [Configure Global Setting for Git](./2.%20Getting%20Started/5._Git_Configure_Global_Settings%20copy.md)
-
-    * 
-
-6. [Making Initial Commits (Initialise Initial Files) for Local Git Repository](./2.%20Getting%20Started/6._Initial_Files_Local_Repo.md)
+5. [Making Initial Commits (Initialise Initial Files) for Local Git Repository](./2.%20Getting%20Started/5._Initial_Files_Local_Repo.md)
 
     * Add Initial Files to Local Git Repository
     * Commit the Changes to Local Git Repository
 
-7. [Add Git Repository as Remote Location to Local Repository](./2.%20Getting%20Started/7._Remote_to_Local_Repo.md)
+6. [Connect Local Git Repository to Global Git Repository](./2.%20Getting%20Started/6._Remote_to_Local_Repo.md)
+
+7. [Push Changes to Global Git Repository](./2.%20Getting%20Started/7._Push_Global_Repository.md)
 
 
 

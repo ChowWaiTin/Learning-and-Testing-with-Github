@@ -152,7 +152,7 @@ Task : Create repository (setup for trip) - Wai Tin
 Task : Setup local repository and link to remote repo = Wai Tin
     - git init (done)
     - git remote add
-    - git config 
+    - git config (done)
     - git add , git commit (done)
     - git push
 
