@@ -150,10 +150,10 @@ Task : Create repository (setup for trip) - Wai Tin
     - Learn how to create remote repositories
 
 Task : Setup local repository and link to remote repo = Wai Tin
-    - git init
+    - git init (done)
     - git remote add
-    - git config
-    - git add , git commit
+    - git config 
+    - git add , git commit (done)
     - git push
 
 Task : Clone repo (for friends) - Wai Tin
