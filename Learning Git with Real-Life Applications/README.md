@@ -7,7 +7,7 @@ A group of developers decided to go on vacation trip together after their recent
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
 - Having [Git Installed](./1.%20Setting%20up%20the%20Pre-requisites/Git%20Bash%20(Windows)%20Tutorial.mkv) on their Local Device
-- Having a [GitHub Account](./1.%20Setting%20up%20the%20Pre-requisites/VS%20Code%20(Windows)%20Tutorial.mkv)
+- Having a [GitHub Account]
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
 
