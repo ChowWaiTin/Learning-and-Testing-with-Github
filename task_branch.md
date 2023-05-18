@@ -22,9 +22,11 @@ he has difficulty choosing between one of the two places.
     b. Next he can stage his changes and commit it with `git add .` .
     c. Then followed by `git commit -m "insert commit message" `.
     d. After that he `git push` his changes to the branch.
-5. At the same time, friend A also made some changes to the file and pushes the edit.
-6. Conflict happens depending on who pushed later. (Friend A encountered the conflict)
-    a. The person who pushed the changes after will experience a conflict.
+5. At the same time, friend A also made some changes to the file and tries to push the edit.    
+    a. He stage his changes and commit it with `git add .` .
+    b. Then followed by `git commit -m "insert commit message" `.
+    c. After that he `git push` his changes to the branch.
+6. Conflict happened for Friend A since he is pushing his changes later.    
 7. In the process of resolving the conflict, he has to ensure that Friend B's work does not overwrite his own work and vice versa.
     a. In this scenario, he has to carefully look through line by line at both Incoming Changes and Current Changes.
     b. Then decide what changes to accept and merge accordingly.
