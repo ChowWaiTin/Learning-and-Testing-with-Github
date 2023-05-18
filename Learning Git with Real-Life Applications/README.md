@@ -6,8 +6,8 @@ A group of developers decided to go on vacation trip together after their recent
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
-- Having [Git Installed]() on their Local Device
-- Having a [GitHub Account]()
+- Having [Git Installed](./1.%20Setting%20up%20the%20Pre-requisites/Git%20Bash%20(Windows)%20Tutorial.mkv) on their Local Device
+- Having a [GitHub Account](./1.%20Setting%20up%20the%20Pre-requisites/VS%20Code%20(Windows)%20Tutorial.mkv)
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
 
@@ -41,6 +41,9 @@ To do so, the lead developer would need to:
 6. [Connect Local Git Repository to Global Git Repository](./2.%20Getting%20Started/6._Remote_to_Local_Repo.md)
 
 7. [Push Changes to Global Git Repository](./2.%20Getting%20Started/7._Push_Global_Repository.md)
+
+## 3. Getting Started - Begin Collaborating
+
 
 
 
