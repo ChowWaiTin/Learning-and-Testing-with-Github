@@ -22,6 +22,11 @@
         ```
         git switch main
         ```
+        Expected response:
+        ```
+        Switched to branch 'main'
+        Your branch is up to date with 'origin/main'
+        ```
     - Ensure branch is updated
         ```
         git fetch origin
@@ -30,6 +35,10 @@
     - Create a new branch and navigate to the branch
         ```
         git checkout -b food/locations
+        ```
+        Expected response:
+        ```
+        Switched to a new branch 'food/locations'
         ```
     - Publish branch in the remote repository in order to share with other developers. This will create a new remote branch.
         ```
