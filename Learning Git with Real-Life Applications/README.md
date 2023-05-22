@@ -47,7 +47,7 @@ To begin collaborating as a team to plan for the trip together, the developers c
 
 After the cloning of the remote repository is done, each individual developer is able to contribute to the planning of the trip by making changes to copy on their local device without affecting the remote repository.
 
-For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//1._Clone_Repo.md)! 
+For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//8._Clone_Repo.md)! 
 
 ## 4. Planning for the Trip - Collaboration
 
