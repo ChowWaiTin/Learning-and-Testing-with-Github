@@ -22,6 +22,11 @@
         ```
         git switch main
         ```
+        Expected response:
+        ```
+        Switched to branch 'main'
+        Your branch is up to date with 'origin/main'
+        ```
     - Ensure branch is updated
         ```
         git fetch origin
@@ -31,6 +36,10 @@
         ```
         git checkout -b food/locations
         ```
+        Expected response:
+        ```
+        Switched to a new branch 'food/locations'
+        ```
     - Publish branch in the remote repository in order to share with other developers. This will create a new remote branch.
         ```
         git push -u origin food/locations
@@ -39,17 +48,20 @@
 2. Developer B decided to work independently from Developer A. In order to achieve this, he decided to create another branch out of the food/locations branch.
 
     Developer B created a new branch as follows:
-    - Pull newly created remote branch using:
+    - Checks all the branches with `git branch -a`
+        ```ps1
+        # Check all branch
+        git branch -a
         ```
-        # This creates a local branch from the remote branch
-        # git pull <remote_name>  <remote_branch_name>:<new_local_branch_name>
+    - Pull newly created remote branch using with `git pull <remote_name>  <remote_branch_name>:<new_local_branch_name>`
+        ```
         git pull origin food/locations:food/locations
         ```
-    - Switch to the branch
+    - Switch to the branch with `git switch <branch_name>`
         ```
         git switch food/locations
         ```
-    - Create a new branch
+    - Create a new branch with `git checkout -b <new_branch_name>`
         ```
         git checkout -b food/locations_dev_B
         ```
@@ -58,7 +70,7 @@
         git push -u origin food/locations_dev_B
         ```
 
-3. Developer B decided to create a list of food outlets using the internet. After searching for the required information, he decided to update the foodoutlet.txt file.
+3. Developer B obtained a list of food outlets using the internet. After searching for the required information, he decided to update the foodoutlet.txt file.
 
     - Developer B update the file: foodoutlet.txt
         ```
