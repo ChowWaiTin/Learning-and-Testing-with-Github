@@ -3,6 +3,8 @@
 ## Context of Real-Life Application
 A group of developers decided to go on vacation trip together after their recent project has been deployed and commisioned. The lead developer of the developement team decided to use GitHub to store the details of their vacation trip such as the itenary, budget planning and etc. By using GitHub, this would also allow the lead developer to be able to track any changes made effortlessly in the planning of the trip by the whole team.
 
+To follow this storyline, you will need at least 2 to 3 people to simulate the roles. 
+
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
@@ -11,7 +13,9 @@ Before the team of developers can plan for their trip, the lead developer would 
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
 
-Before the gathering the team together to plan for the trip, the lead developer would need to create a **central shared folder** where the team can collaborate together to plan for the trip. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in.
+<!-- Before the gathering the team together to plan for the trip, the lead developer would need to create a **central shared folder** where the team can collaborate together to plan for the trip. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in. -->
+
+Prior to gathering the team for trip planning, the lead developer would need to create a **central shared folder** where the team can collaborate effectively. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in.
 
 To have a central repository for collaboration, the lead developer would need to initalise a repository for the team to plan the trip.
 
@@ -44,7 +48,7 @@ To do so, the lead developer would need to:
 
 ## 3. Getting Started - Begin Collaborating (Cloning Global Repository to Local Device)
 
-After having initialized the repository for the project, the team can start to collaborate for the planning of the trip together. But before they begin, the team member would need to have a local copy of the remote repository on their local device. To do so, the lead developer teaches the team how to clone the remote repository onto their local device
+After the cloning of the remote repository is done, each individual developer is able to contribute to the planning of the trip by making changes to copy on their local devices without affecting the remote repository.
 
 For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//8._Clone_Repo.md)! 
 
@@ -52,8 +56,11 @@ For the steps on how to clone the global repository and find out more, [click he
 
 After the cloning of the remote repository is done, the team members can proceed on to collaborate in the planning of the trip. 
 
- - Throughout this collaboration, Visual Studio Code will be used for the editing of document. 
-    [Set up Visual Studio code](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md)
+Throughout this collaboration, Visual Studio Code will be used for the editing of document. The team will be using Git Bash in the terminal of Visual Studio Code.
+
+* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md) to view how set up Visual Studio code.
+* [Click here](./1.%20Setting%20up%20the%20Pre-requisites) to learn how to use open up Git Bash in the terminal of Visual Studio code.
+
 
 To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
 
