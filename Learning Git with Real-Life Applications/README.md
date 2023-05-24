@@ -60,32 +60,14 @@ After the cloning of the remote repository is done, the team members can proceed
 After this has been taught, each of the team members begin applying what they have learnt during the collaboration. Along the journey of their collaboration to plan for an epic vacation trip, they encountered many life's precious lessons for a software developer when using GitHub.
 
 Click on anyone of the storyline below to learn what they have reflected!!!
-* [Storyline 1](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
 
-    
+* [**Storyline 1**](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
 
-## Storyline 1 (Xun)
-1. Developer A is tasked to come up with the itinerary for day 1.
-    a. Firstly, he creates a branch with `git branch itinerary/activities`.
-2. Followed by switching to the branch he created with `git switch itinerary/activities`.
-2. He created a text file named `itenerary.txt` and saved the file locally.
-3. So in order to share it with the group, he has to "push" the updates into the repository.
-    a. Once done editing the text file, he `git add .`
-    b. Next `git commit -m "added itinerary text file" `
-    c. Then followed by `git push` the changes to his branch
-4. Lastly, he merge his branch to the main branch by checking for any changes in the main branch.
-    `git switch main`
-    `git fetch`
-    `git pull`
-    `git switch itinerary/activities`
-    `git merge main`
-    `git switch main`
-    `git merge itinerary/activities`
-    `git push`
-    Switch back to his own branch and publish the branch along with his changes to the remote repository.
-    `git switch itinerary/activities`
-    `git push -u origin`
-    
+    This storyline is about Developer A working individually on the tasks he was given to contribute on the planning of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.
+
+* [**Storyline 2**](./4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
+
+    This storyline is about Developer A working individually on the tasks he was given to contribute on the planning of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.    
 
 ## Storyline 2 (Xun)
 1. Developer A edits text file `itinerary.txt` for Day 1 itinerary. While planning the schedule,
