@@ -6,7 +6,7 @@ A group of developers decided to go on vacation trip together after their recent
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
-- Having [Git Installed](./1.%20Setting%20up%20the%20Pre-requisites/Git%20Bash%20(Windows)%20Tutorial.mkv) on their Local Device
+- Having [Git Installed](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Git%20Bash.md) on their Local Device
 - Having a [GitHub Account]
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
@@ -50,7 +50,12 @@ For the steps on how to clone the global repository and find out more, [click he
 
 ## 4. Planning for the Trip - Collaboration
 
-After the cloning of the remote repository is done, the team members can proceed on to collaborate in the planning of the trip. To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
+After the cloning of the remote repository is done, the team members can proceed on to collaborate in the planning of the trip. 
+
+ - Throughout this collaboration, Visual Studio Code will be used for the editing of document. 
+    [Set up Visual Studio code](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md)
+
+To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
 
 1. The basics and importance of branching and following a branching strategy (i.e. feature branching model) which will allow the team to plan the trip in parallel.
 2. The importance of code synchronization so that their local repository is always up-to-date with any latest changes in the remote repository.
