@@ -52,8 +52,11 @@ For the steps on how to clone the global repository and find out more, [click he
 
 After the cloning of the remote repository is done, the team members can proceed on to collaborate in the planning of the trip. 
 
- - Throughout this collaboration, Visual Studio Code will be used for the editing of document. 
-    [Set up Visual Studio code](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md)
+Throughout this collaboration, Visual Studio Code will be used for the editing of document. The team will be using Git Bash in the terminal of Visual Studio Code.
+
+* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md) to view how set up Visual Studio code.
+* [Click here](./1.%20Setting%20up%20the%20Pre-requisites) to learn how to use open up Git Bash in the terminal of Visual Studio code.
+
 
 To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
 
