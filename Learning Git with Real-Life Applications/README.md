@@ -52,154 +52,48 @@ For the steps on how to clone the global repository and find out more, [click he
 
 After the cloning of the remote repository is done, the team members can proceed on to collaborate in the planning of the trip. To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
 
-1. The basics and importance of branching and following a branching strategy (i.e. feature branching model) which will allow the team to plan the trip in parallel.
-2. The importance of code synchronization so that their local repository is always up-to-date with any latest changes in the remote repository.
-3. How to manage local their changes and push them to their feature branches in the remote repository.
-4. Merging/Integrating the changes made in their feature branch back to the common branch in their remote repository.
+1. The *basics and importance of branching*  and *following a branching strategy (i.e. feature branching model)* which will allow the team to plan the trip in parallel.
+2. The importance of *code synchronization* so that their local repository is always up-to-date with any latest changes in the remote repository.
+3. How to *manage local their changes* and *push them to their feature branches in the remote repository*.
+4. *Merging/Integrating the changes* made in their feature branch back to the common branch in their remote repository.
 
 After this has been taught, each of the team members begin applying what they have learnt during the collaboration. Along the journey of their collaboration to plan for an epic vacation trip, they encountered many life's precious lessons for a software developer when using GitHub.
 
 Click on anyone of the storyline below to learn what they have reflected!!!
 
-* [**Storyline 1**](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
+* [*Storyline 1*](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
 
-    This storyline is about Developer A working individually on the tasks he was given to contribute on the planning of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.
+    This storyline is about Developer A working individually on the tasks he was given which is plan for the Day 1 itinerary of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.
 
-* [**Storyline 2**](./4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
+* [*Storyline 2*](./4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
 
-    This storyline is about Developer A working individually on the tasks he was given to contribute on the planning of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.    
+    As Developer A continues to plan for the Day 1 itinerary of the trip, he begins to have difficulty on choosing between 2 places for sightseeing on the trip. On noticing this, Developer B decides to help out Developer A by working on the same feature branch that Developer A created. In this storyline, you will be able to learn the issues/struggles that both Developer A and B faced when working together and making changes on the same feature branch.
 
-## Storyline 2 (Xun)
-1. Developer A edits text file `itinerary.txt` for Day 1 itinerary. While planning the schedule,
-he has difficulty choosing between one of the two places.
-2. Developer B decides to help, so he checkout Developer A's branch.
-    a. Firstly he typed out `git branch --all` to list out the branches that have been created on the repository.
-    b. Once he knows Developer A's branch to checkout, he typed out `git switch {Developer's A branch name} or git checkout {Developer's A branch name}`.
-3. Both of them ended up working in the same branch, on the same file.
-4. Developer B finished editing the file and pushes the edit.
-    a. Firstly he needs to `git pull` on the branch itself.
-    b. Next he can stage his changes and commit it with `git add .` .
-    c. Then followed by `git commit -m "insert commit message" `.
-    d. After that he `git push` his changes to the branch.
-5. At the same time, Developer A also made some changes to the file and tries to push the edit.    
-    a. He stage his changes and commit it with `git add .` .
-    b. Then followed by `git commit -m "insert commit message" `.
-    c. After that he `git push` his changes to the branch.
-6. Conflict happened for Developer A since he is pushing his changes later.    
-7. In the process of resolving the conflict, he has to ensure that Developer B's work does not overwrite his own work and vice versa.
-    a. In this scenario, he has to carefully look through line by line at both Incoming Changes and Current Changes.
-    b. Then decide what changes to accept and merge accordingly.
-8. Upon resolving the conflict, Developer A performed a commit and pushed the changes to his own remote branch. 
-9. Finally, he can merge his branch to the main branch so Developer B can see his changes he made to the itinerary.
+* [*Storyline 3*](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md)
 
-## Storyline 3 (Bao Jin)
-1. Developer A and B continues to work on the itinerary. Both of them worked within the itinerary/activities branch. Developer A found a number of interesting activities and stored them in the **activities.txt** file
-
-    - Developer A checks the branches
-        ```ps1
-        # Check all branch
-        git branch -a
-        ```
-        The response should show the following:
-
-        If branch is missing, please ensure that the previous task has been completed.
-
-    - Developer A switch to the itinerary/activities branch
-        ```ps1
-        # Switching branch
-        git switch itinerary/activities
-        ```
-    - Developer A added modifications
-        ```
-        # Activities file
-        Visit the Meiji Shrine - A beautiful Shinto shrine located in the heart of Tokyo's bustling Shibuya district
-
-        Lake Ashi - Relaxing boat ride 
-        ```
-
-2. Meanwhile, Developer B found that it was better to place the information on the activities together with the itinerary plan in the itinerary.txt file. After some discussion with the team, he began the process of transferring the information and deleted the activities.txt file. This change was not made aware to Developer A.
-
-    - Developer B checks the branches
-        ```ps1
-        # Check all branch
-        git branch -a
-        ```
-        The response should show the following:
-
-        If branch is missing, please ensure that the previous task has been completed.
-
-    - Developer B switch to the itinerary/activities branch
-        ```ps1
-        # Switching branch
-        git switch itinerary/activities
-        ```
-
-    - Developer B modified itinerary.txt 
-
-
-3. After completing the update on the activities.txt file, Developer A staged his changes, made a commit and pushed the changes to the remote repository.
-
-    - Developer A stage changes
-        ```
-        git add .
-        ```
-    - Developer A commits
-        ```
-        git commit -m "Added new activities to activities.txt"
-        ```
-    - Developer A pull and push changes
-        ```
-        # fetch the latest changes
-        git fetch origin
-        # pull latest changes from repository
-        git pull origin
-        # push the update
-        git push origin
-        ```
-
-4. At the same time, Developer B completed the transfer of the information and deleted activities.txt file. He staged his changes and made a commit. Before pushing his changes to the remote repository, he updated his local repository and found a conflict.
-
-    - Developer B deletes the activities.txt
-    - Developer B stage changes
-        ```
-        git add .
-        ```
-    - Developer B commits
-        ```
-        git commit -m "Transfer activities info to itinerary.txt. Delete activities.txt."
-        ```
-    - Update local repository with remote repository
-        ```
-        # fetch the latest changes
-        git fetch origin
-        # pull latest changes from repository
-        git pull origin
-        ```
-    - Encounters a conflict. The file he deleted had changes
-
-5. Developer B subsequently moved the additional information to the itinerary.txt file and made a commit
-
-    - Proceed to resolve the conflict 
-    - Transfer new changes to itinerary.txt
-    - Delete activities.txt
-    - Perform a commit
-        ```
-        git commit -m "Resolve conflict from deleted activities.txt"
-        ```
-
-6. Developer B pushed his changes to the remote repository and proceed to inform Developer A of this change.
+    As the team continues to collaborate together, both Developer A and B continue to working together on the same feature branch created by Developer A. In this collaboration between Developer A and B, they are both working on the planning of the activities to do for the trip. 
     
-    - Developer B pushes the changes to remote repository
-        ```
-        git push origin
-        ```
+    While working together, Developer A created a new file (i.e. activity.txt) for the repository to store information related to all the activities for the trip.
+    However, with a different perspective, Developer B felt that information related to activities for the trip should be stored in the individual file related to each itinerary of the day (i.e. day1_itinerary.txt, day2_itinerary.txt, day3_itinerary.txt, day4_itinerary.txt).
 
+    Thus, Developer B decided to split the information stored in the activity.txt and transfer them to the respective itinerary files (i.e. day1_itinerary.txt, day2_itinerary.txt, day3_itinerary.txt, day4_itinerary.txt). And then deleting the activity.txt file from the repository.
 
-## Lesson Learn
-1. Potential conflicts from file deletion and how to handle it.
+    Because of the lack of communication between both Developers A and B, they encountered errors/conflicts while merging the changes they have made to the remote repository.
 
-2. Reminder to fetch and pull changes from remote repository before pushing changes.
+    [Click here](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md) to find out how they resolved and learnt from this issue.
 
+* [*Storyline 4*](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
+
+    As collaboration continues, both Developer A and B continue to working together on the same feature branch created by Developer A. This time round, they begin working on the planning for their food by listing the different food outlets available. 
+    
+    While working together, Developer A created a new file (i.e. activity.txt) for the repository to store information related to all the activities for the trip.
+    However, with a different perspective, Developer B felt that information related to activities for the trip should be stored in the individual file related to each itinerary of the day (i.e. day1_itinerary.txt, day2_itinerary.txt, day3_itinerary.txt, day4_itinerary.txt).
+
+    Thus, Developer B decided to split the information stored in the activity.txt and transfer them to the respective itinerary files (i.e. day1_itinerary.txt, day2_itinerary.txt, day3_itinerary.txt, day4_itinerary.txt). And then deleting the activity.txt file from the repository.
+
+    Because of the lack of communication between both Developers A and B, they encountered errors/conflicts while merging the changes they have made to the remote repository.
+
+    [Click here](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md) to find out how they resolved and learnt from this issue.
 
 ## Storyline 4 (Bao Jin)
 1. Developer A and B decided to begin planning for their food by listing the different food outlets available. They decided that they did not want to mix their food planning with their literary planning. In order to do so, they decided to create another branch from the main branch.
