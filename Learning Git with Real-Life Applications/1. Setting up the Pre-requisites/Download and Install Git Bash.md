@@ -1,3 +1,5 @@
+# Downloading and Installing Git Bash
+
 Download and install Git Bash from [git-scm](https://git-scm.com/downloads).
 
    * For Window Installers, [click here](https://git-scm.com/download/win) and download the  **Standalone Installer for 64-bit for Windows Setup**
