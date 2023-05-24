@@ -3,6 +3,8 @@
 ## Context of Real-Life Application
 A group of developers decided to go on vacation trip together after their recent project has been deployed and commisioned. The lead developer of the developement team decided to use GitHub to store the details of their vacation trip such as the itenary, budget planning and etc. By using GitHub, this would also allow the lead developer to be able to track any changes made effortlessly in the planning of the trip by the whole team.
 
+To follow this storyline, you will need at least 2 to 3 people to simulate the roles. 
+
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
