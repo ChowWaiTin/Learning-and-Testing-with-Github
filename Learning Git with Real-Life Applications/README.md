@@ -13,7 +13,9 @@ Before the team of developers can plan for their trip, the lead developer would 
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
 
-Before the gathering the team together to plan for the trip, the lead developer would need to create a **central shared folder** where the team can collaborate together to plan for the trip. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in.
+<!-- Before the gathering the team together to plan for the trip, the lead developer would need to create a **central shared folder** where the team can collaborate together to plan for the trip. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in. -->
+
+Prior to gathering the team for trip planning, the lead developer would need to create a **central shared folder** where the team can collaborate effectively. In GitHub, this shared folder is a **central repository** that the developers will be collaborating in.
 
 To have a central repository for collaboration, the lead developer would need to initalise a repository for the team to plan the trip.
 
@@ -46,7 +48,7 @@ To do so, the lead developer would need to:
 
 ## 3. Getting Started - Begin Collaborating (Cloning Global Repository to Local Device)
 
-After having initialized the repository for the project, the team can start to collaborate for the planning of the trip together. But before they begin, the team member would need to have a local copy of the remote repository on their local device. To do so, the lead developer teaches the team how to clone the remote repository onto their local device
+After the cloning of the remote repository is done, each individual developer is able to contribute to the planning of the trip by making changes to copy on their local devices without affecting the remote repository.
 
 For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//8._Clone_Repo.md)! 
 
