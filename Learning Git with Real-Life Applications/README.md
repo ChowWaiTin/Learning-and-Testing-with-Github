@@ -1,7 +1,7 @@
 # Learning Git with Real-Life Applications
 
 ## Context of Real-Life Application
-A group of developers decided to go on vacation trip together after their recent project has been deployed and commisioned. The lead developer of the developement team decided to use GitHub to store the details of their vacation trip such as the itenary, budget planning and etc.
+A group of developers decided to go on vacation trip together after their recent project has been deployed and commisioned. The lead developer of the developement team decided to use GitHub to store the details of their vacation trip such as the itenary, budget planning and etc. By using GitHub, this would also allow the lead developer to be able to track any changes made effortlessly in the planning of the trip by the whole team.
 
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
@@ -43,13 +43,26 @@ To do so, the lead developer would need to:
 7. [Push Changes to Global Git Repository](./2.%20Getting%20Started/7._Push_Global_Repository.md)
 
 ## 3. Getting Started - Begin Collaborating (Cloning Global Repository to Local Device)
-To begin collaborating as a team to plan for the trip together, the developers can start by cloning the remote repository so that their local device will be able to have a local copy.
 
-After the cloning of the remote repository is done, each individual developer is able to contribute to the planning of the trip by making changes to copy on their local device without affecting the remote repository.
+After having initialized the repository for the project, the team can start to collaborate for the planning of the trip together. But before they begin, the team member would need to have a local copy of the remote repository on their local device. To do so, the lead developer teaches the team how to clone the remote repository onto their local device
 
 For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//8._Clone_Repo.md)! 
 
 ## 4. Planning for the Trip - Collaboration
+
+After the cloning of the remote repository is done, the team members can proceed on to collaborate in the planning of the trip. To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
+
+1. The basics and importance of branching and following a branching strategy (i.e. feature branching model) which will allow the team to plan the trip in parallel.
+2. The importance of code synchronization so that their local repository is always up-to-date with any latest changes in the remote repository.
+3. How to manage local their changes and push them to their feature branches in the remote repository.
+4. Merging/Integrating the changes made in their feature branch back to the common branch in their remote repository.
+
+After this has been taught, each of the team members begin applying what they have learnt during the collaboration. Along the journey of their collaboration to plan for an epic vacation trip, they encountered many life's precious lessons for a software developer when using GitHub.
+
+Click on anyone of the storyline below to learn what they have reflected!!!
+* [Storyline 1](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
+
+    
 
 ## Storyline 1 (Xun)
 1. Developer A is tasked to come up with the itinerary for day 1.
