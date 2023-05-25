@@ -12,4 +12,4 @@ Download and install Git Bash from [git-scm](https://git-scm.com/downloads).
       ```
       git --version
       ```
-      This to check that you have installed Git Bash and the version installed
+      This is to check that you have installed Git Bash and the version installed
