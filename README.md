@@ -1,23 +1,21 @@
 # Learning-and-Testing-with-Github
 
 ## Summary
-This document covers basics of working with a repository using git commands. Different example workflows will be explored.
+This document will share a simple example on the use of git, a version control tool. You can follow along and get some hands on experience in the process.
 
-## Pre-requisites
-This guide assumes that the following has been setup. Please refer to the [SETUP.md](SETUP.md) document for a guide to set up the required 
+## Get Started
+Try out the example: [Example](./Learning%20Git%20with%20Real-Life%20Applications/TASKS.md)
 
-* [Installation of Git](SETUP.md#1-installation-of-git)
-* [Having a GitHub Account](SETUP.md#2-setting-up-a-github-account)
-* [Available Repository](SETUP.md#3-available-repository)
+There are also some useful info you can refer to below.
+
 ---
-## **Table of Contents**
+## Useful Info
 
 1. [Basic Git Commands](#basic-git-commands)
 2. [Cloning Repository](#cloning-repository)
 3. [Basic Flow - No Merge Conflict](#basic-flow---no-merge-conflict)
 4. [Basic Flow - With Merge Conflict](#basic-flow---with-merge-conflict)
 
----
 ## Basic Git Commands
 This section provides a list of frequently used git commands. This list is non-exhaustive and does not cover all the git commands.
 

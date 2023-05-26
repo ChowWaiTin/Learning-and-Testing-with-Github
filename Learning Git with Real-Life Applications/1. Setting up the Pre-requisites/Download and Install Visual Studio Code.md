@@ -14,3 +14,5 @@ Alternatively, you could click on the button (*boxed in red*) below at https://c
 
    * Add "Open with Code" action to Windows Explorer file context menu
    * Add "Open with Code" action to Windows Explorer directory context menu
+
+You may return to [task.md](../TASKS.md#3-getting-started---begin-collaborating-cloning-global-repository-to-local-device)
