@@ -155,6 +155,9 @@ Common commands:
     git remote prune <remote_name>
     # e.g. git remote prune origin
     ```
+    ```ps1
+    git fetch -p
+    ```
 ---
 ## Cloning Repository
 This section covers the cloning of an existing remote repository to a local repository on a local computer. This will require a github account which is granted access to this repository.
