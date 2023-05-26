@@ -14,4 +14,4 @@ Download and install Git Bash from [git-scm](https://git-scm.com/downloads).
       ```
       This is to check that you have installed Git Bash and the version installed
 
-You may return to [task.md](../TASKS.md#3-getting-started---begin-collaborating-cloning-global-repository-to-local-device)
+You may return to [task.md](../TASKS.md#1-setting-up-the-pre-requisites)

@@ -73,65 +73,75 @@ After this has been taught, each of the team members begin applying what they ha
 
 Click on anyone of the storyline below to learn what they have reflected!!!
 
-* [*Storyline 1*](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
+###  [*Storyline 1*](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
 
-    **Objective:**
-    1. Learn how to create a branch
-    2. Learn how to stage changes and commit
-    3. Learn how to update remote repository
-    ---
-    This storyline is about Developer A working individually on the tasks he was given which is plan for the Day 1 itinerary of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.
+**Objective:**
+1. Learn how to create a branch
+2. Learn how to stage changes and commit
+3. Learn how to update remote repository
+---
+**Scenario:**
 
-* [*Storyline 2*](./4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
+This storyline is about Developer A working individually on the tasks he was given which is plan for the Day 1 itinerary of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.
 
-    **Objective:**
-    1. Learn of possible merge conflict when working on the same file in the same branch
-    2. Understanding the different methods to handle merge conflict
-    3. Learn how to handle merge conflict (Accept both changes)
-    ---
-    As Developer A continues to plan for the Day 1 itinerary of the trip, he begins to have difficulty on choosing between 2 places for sightseeing on the trip. On noticing this, Developer B decides to help out Developer A by working on the same feature branch that Developer A created. In this storyline, you will be able to learn the issues/struggles that both Developer A and B faced when working together and making changes on the same feature branch.
+### [*Storyline 2*](./4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
 
-* [*Storyline 3*](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md)
+**Objective:**
+1. Learn of possible merge conflict when working on the same file in the same branch
+2. Understanding the different methods to handle merge conflict
+3. Learn how to handle merge conflict (Accept both changes)
+---
+**Scenario:**
 
-    **Objective:**
-    1. Learn of possible merge conflict from deleting files
-    2. Learn how to handle merge conflict (Accept one change)
-    3. Revise basic git commands and git flow.
-    ---
-    As the team continues to collaborate together, both Developer A and B continue to working together on the same feature branch created by Developer A. In this collaboration between Developer A and B, they are both working on the planning of the activities to do for the trip. 
-    
-    While working together, Developer A updates an existing file (i.e. day4_itinerary.txt) for the repository to store information related a day's itinerary for the trip.
-    However, unexpected circumstances led to the trip being shorted. In lieu of this, Developer B deleted the day 4 itinerary.
+As Developer A continues to plan for the Day 1 itinerary of the trip, he begins to have difficulty on choosing between 2 places for sightseeing on the trip. On noticing this, Developer B decides to help out Developer A by working on the same feature branch that Developer A created. In this storyline, you will be able to learn the issues/struggles that both Developer A and B faced when working together and making changes on the same feature branch.
 
-    Because of the lack of communication between both Developers A and B, they encountered errors/conflicts while merging the changes they have made to the remote repository as one has updated a file that the other has deleted.
+### [*Storyline 3*](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md)
 
-    To find out how they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md) 
+**Objective:**
+1. Learn of possible merge conflict from deleting files
+2. Learn how to handle merge conflict (Accept one change)
+3. Revise basic git commands and git flow.
+---
+**Scenario:**
 
-* [*Storyline 4*](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
+As the team continues to collaborate together, both Developer A and B continue to working together on the same feature branch created by Developer A. In this collaboration between Developer A and B, they are both working on the planning of the activities to do for the trip. 
 
-    **Objective:**
-    1. Recap creation of separate branches.
-    2. Learn of possible merge conflict from merging different branches.
-    3. Learn how to handle the merge conflict (Accept combination of both)
-    ---
-    As the planing of the trip continues, both Developers A and B begin working on their next task together which is to plan the places to eat during their trip by storing the information of the different food outlets available. For this task, they decided to do it independently by working on separate feature branches but on the same file (i.e. day3_itinerary.txt).
+While working together, Developer A updates an existing file (i.e. day4_itinerary.txt) for the repository to store information related a day's itinerary for the trip.
+However, unexpected circumstances led to the trip being shorted. In lieu of this, Developer B deleted the day 4 itinerary.
 
-    Both developer A and B modified their plans on their individual branches on the same day3_itinerary.txt file. 
+Because of the lack of communication between both Developers A and B, they encountered errors/conflicts while merging the changes they have made to the remote repository as one has updated a file that the other has deleted.
 
-    When developer A decides to put their work together, he attempted to merge the branches. This caused a merge conflict.
+To find out how they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md) 
 
-    To find out how they they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
+### [*Storyline 4*](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
 
-* [*Storyline 5*](./4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
+**Objective:**
+1. Recap creation of separate branches.
+2. Learn of possible merge conflict from merging different branches.
+3. Learn how to handle the merge conflict (Accept combination of both)
+---
+**Scenario:**
 
-    **Objective:**
-    1. Learn what is a pull request.
-    2. Learn how to perform a pull request.
-    3. Understand why pull request is used. 
-    ---
-    After working together for awhile, both Developers A and B realized that their way of merging their changes into the remote repository while working together cause a lot of conflicts/issues during the merge. Upon research, they decided to implement the pull request solution.
+As the planing of the trip continues, both Developers A and B begin working on their next task together which is to plan the places to eat during their trip by storing the information of the different food outlets available. For this task, they decided to do it independently by working on separate feature branches but on the same file (i.e. day3_itinerary.txt).
 
-    To find out how they they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
+Both developer A and B modified their plans on their individual branches on the same day3_itinerary.txt file. 
+
+When developer A decides to put their work together, he attempted to merge the branches. This caused a merge conflict.
+
+To find out how they they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
+
+### [*Storyline 5*](./4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
+
+**Objective:**
+1. Learn what is a pull request.
+2. Learn how to perform a pull request.
+3. Understand why pull request is used. 
+---
+**Scenario:**
+
+After working together for awhile, both Developers A and B realized that their way of merging their changes into the remote repository while working together cause a lot of conflicts/issues during the merge. Upon research, they decided to implement the pull request solution.
+
+To find out how they they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
 
 
 ## 5. Lessons Learnt
