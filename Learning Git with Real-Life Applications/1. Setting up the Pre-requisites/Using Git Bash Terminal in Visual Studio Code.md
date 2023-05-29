@@ -31,6 +31,6 @@
 
    ![select_default_terminal_profile](../images/select_default_terminal_profile.png)
 
-   ![new_default_terminal_profile](../images/new_default_terminal_profile.png.png)
+   ![new_default_terminal_profile](../images/new_default_terminal_profile.png)
 
 You may return to [task.md](../TASKS.md#1-setting-up-the-pre-requisites)

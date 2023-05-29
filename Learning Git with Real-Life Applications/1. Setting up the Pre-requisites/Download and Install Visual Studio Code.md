@@ -10,7 +10,7 @@ Alternatively, you could click on the button (*boxed in red*) below at https://c
 
 * After downloading the installer, run the *VSCodeUserSetup-x64-1.77.3.exe* file to proceed with the installation.
 
-* Note: During the installation setup, remember to tick the folllowing checkboxes below:
+* Note: During the installation setup, remember to tick the following checkboxes below:
 
    * Add "Open with Code" action to Windows Explorer file context menu
    * Add "Open with Code" action to Windows Explorer directory context menu

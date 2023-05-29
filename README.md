@@ -31,7 +31,7 @@ Common commands:
     # Listing all branches (local)
     git branch
     
-    # Listing all avaliable branches (local + remote)
+    # Listing all available branches (local + remote)
     git branch -a
     
     # Listing all the remote branches 
@@ -113,7 +113,7 @@ Common commands:
     git commit -m '<commit_message>'
 
     # Replacing the tip of the current branch with a new commit. This overrides the previous commit
-    git commit --ammend -m '<commit_message>'
+    git commit --amend -m '<commit_message>'
     ```
 - Pushing to remote repository
     ```ps1
@@ -138,10 +138,10 @@ Common commands:
     # Listing all the stashes
     git stash list
 
-    # Retrive the latest stash
+    # Retrieve the latest stash
     git stash pop
 
-    # Droping a specific stash from list
+    # Dropping a specific stash from list
     git stash drop <id>
 
     # Delete all stash
@@ -167,7 +167,7 @@ This section covers the basic flow of pulling the source code from a remote repo
 
 1. Fetching And Pulling From Main Branch
 2. Creating Local Branch and Publishing Branch
-3. Modifications, Staging and Commiting
+3. Modifications, Staging and Committing
 4. Fetching And Pulling From Main Branch
 5. Merging Repositories 
 6. Pushing To Remote Branch
@@ -179,7 +179,7 @@ This section covers the basic flow of pulling the source code from a remote repo
 
 1. Fetching And Pulling From Main Branch
 2. Creating Local Branches 
-3. Modifications, Staging and Commiting In Different Branches
+3. Modifications, Staging and Committing In Different Branches
 4. Fetching And Pulling From Main Branch
 5. Merging Repositories 
 6. Handling Merge Conflicts
