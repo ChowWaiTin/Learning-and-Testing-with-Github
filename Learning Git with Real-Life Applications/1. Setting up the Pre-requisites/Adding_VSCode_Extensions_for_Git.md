@@ -18,4 +18,4 @@ Install the following extensions in VSCode
 
 
    
-You may return to [task.md](../TASKS.md#1-setting-up-the-pre-requisites)
+You may return [here](../../README.md#1-setting-up-the-pre-requisites)

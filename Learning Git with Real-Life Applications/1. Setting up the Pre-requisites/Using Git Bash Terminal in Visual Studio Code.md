@@ -33,4 +33,4 @@
 
    ![new_default_terminal_profile](../images/new_default_terminal_profile.png)
 
-You may return to [task.md](../TASKS.md#1-setting-up-the-pre-requisites)
+You may return [here](../../README.md#4-planning-for-the-trip---collaboration)

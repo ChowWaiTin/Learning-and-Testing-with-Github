@@ -8,7 +8,7 @@ To follow this storyline, you will need at least 2 to 3 people to simulate the r
 ## 1. Setting up the Pre-requisites
 Before the team of developers can plan for their trip, the lead developer would need to ensure that the team would have the following things required:
 
-- Having [Git Installed](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Git%20Bash.md) on their Local Device
+- Having [Git Installed](./Learning%20Git%20with%20Real-Life%20Applications/1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Git%20Bash.md) on their Local Device
 - Having a [GitHub Account]
 
 ## 2. Getting Started - Initialise a Repository for the Project (Create a Shared Folder for Collaboration)
@@ -21,36 +21,36 @@ To have a central repository for collaboration, the lead developer would need to
 
 To do so, the lead developer would need to:
 
-1. [Configure Global Setting for Git](./2.%20Getting%20Started/1._Git_Configure_Global_Settings.md)
+1. [Configure Global Setting for Git](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/1._Git_Configure_Global_Settings.md)
 
     *  This is to allow you to set default values for your user identity and preferred behaviors across all Git repositories on your development machine. 
 
-2. [Initialise (Create) A Remote Repository on GitHub Webpage](./2.%20Getting%20Started/2._Create_Remote_Repo.md)
+2. [Initialise (Create) A Remote Repository on GitHub Webpage](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/2._Create_Remote_Repo.md)
 
     * This is to allow the team to store the information of their trip on the remotely
 
-3. [Adding Collaborators](./2.%20Getting%20Started/3._Add_Collaborators.md)
+3. [Adding Collaborators](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/3._Add_Collaborators.md)
 
     * This is to allow the team to be able to collaborate and plan together for the trip
 
-4. [Initialise (Create) A Local Git Repository on Local Device](./2.%20Getting%20Started/4._Create_Local_Repo.md)
+4. [Initialise (Create) A Local Git Repository on Local Device](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/4._Create_Local_Repo.md)
 
     * This repository (file folder) will contain all the files and folders associated with the planning of the vacation trip.
 
-5. [Making Initial Commits (Initialise Initial Files) for Local Git Repository](./2.%20Getting%20Started/5._Initial_Files_Local_Repo.md)
+5. [Making Initial Commits (Initialise Initial Files) for Local Git Repository](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/5._Initial_Files_Local_Repo.md)
 
     * Add Initial Files to Local Git Repository
     * Commit the Changes to Local Git Repository
 
-6. [Connect Local Git Repository to Global Git Repository](./2.%20Getting%20Started/6._Remote_to_Local_Repo.md)
+6. [Connect Local Git Repository to Global Git Repository](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/6._Remote_to_Local_Repo.md)
 
-7. [Push Changes to Global Git Repository](./2.%20Getting%20Started/7._Push_Global_Repository.md)
+7. [Push Changes to Global Git Repository](./Learning%20Git%20with%20Real-Life%20Applications/2.%20Getting%20Started/7._Push_Global_Repository.md)
 
 ## 3. Getting Started - Begin Collaborating (Cloning Global Repository to Local Device)
 
 After the cloning of the remote repository is done, each individual developer is able to contribute to the planning of the trip by making changes to copy on their local devices without affecting the remote repository.
 
-For the steps on how to clone the global repository and find out more, [click here](./3.%20Clone%20Repo%20To%20Start%20Collaborating//8._Clone_Repo.md)! 
+For the steps on how to clone the global repository and find out more, [click here](./Learning%20Git%20with%20Real-Life%20Applications/3.%20Clone%20Repo%20To%20Start%20Collaborating//8._Clone_Repo.md)! 
 
 ## 4. Planning for the Trip - Collaboration
 
@@ -58,9 +58,9 @@ After the cloning of the remote repository is done, the team members can proceed
 
 Throughout this collaboration, Visual Studio Code will be used for the editing of document. The team will be using Git Bash in the terminal of Visual Studio Code.
 
-* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md) to view how set up Visual Studio Code.
-* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Adding_VSCode_Extensions_for_Git.md) to install necessary Git extensions for Visual Studio Code.
-* [Click here](./1.%20Setting%20up%20the%20Pre-requisites) to learn how to use open up Git Bash in the terminal of Visual Studio code.
+* [Click here](./Learning%20Git%20with%20Real-Life%20Applications/1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md) to view how set up Visual Studio Code.
+* [Click here](./Learning%20Git%20with%20Real-Life%20Applications/1.%20Setting%20up%20the%20Pre-requisites/Adding_VSCode_Extensions_for_Git.md) to install necessary Git extensions for Visual Studio Code.
+* [Click here](./Learning%20Git%20with%20Real-Life%20Applications/1.%20Setting%20up%20the%20Pre-requisites/Using%20Git%20Bash%20Terminal%20in%20Visual%20Studio%20Code.md) to learn how to use open up Git Bash in the terminal of Visual Studio code.
 
 
 To be able to contribute individually to the planning of the trip, the lead developer taught his team on the following topics below:
@@ -74,7 +74,7 @@ After this has been taught, each of the team members begin applying what they ha
 
 Click on anyone of the storyline below to learn what they have reflected!!!
 
-###  [*Storyline 1*](./4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
+###  [*Storyline 1*](./Learning%20Git%20with%20Real-Life%20Applications/4.%20Collaboration%20as%20A%20Team/1._Contributing_Individually.md)
 
 **Objective:**
 1. Learn how to create a branch
@@ -85,7 +85,7 @@ Click on anyone of the storyline below to learn what they have reflected!!!
 
 This storyline is about Developer A working individually on the tasks he was given which is plan for the Day 1 itinerary of the trip. In this storyline, you will be able to learn how Developer A was able to apply what he has learnt on the topics taught by the lead developer.
 
-### [*Storyline 2*](./4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
+### [*Storyline 2*](./Learning%20Git%20with%20Real-Life%20Applications/4.%20Collaboration%20as%20A%20Team/2._Working_On_The_Same_Branch.md)
 
 **Objective:**
 1. Learn of possible merge conflict when working on the same file in the same branch
@@ -96,7 +96,7 @@ This storyline is about Developer A working individually on the tasks he was giv
 
 As Developer A continues to plan for the Day 1 itinerary of the trip, he begins to have difficulty on choosing between 2 places for sightseeing on the trip. On noticing this, Developer B decides to help out Developer A by working on the same feature branch that Developer A created. In this storyline, you will be able to learn the issues/struggles that both Developer A and B faced when working together and making changes on the same feature branch.
 
-### [*Storyline 3*](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md)
+### [*Storyline 3*](./Learning%20Git%20with%20Real-Life%20Applications/4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md)
 
 **Objective:**
 1. Learn of possible merge conflict from deleting files
@@ -112,9 +112,9 @@ However, unexpected circumstances led to the trip being shorted. In lieu of this
 
 Because of the lack of communication between both Developers A and B, they encountered errors/conflicts while merging the changes they have made to the remote repository as one has updated a file that the other has deleted.
 
-To find out how they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md) 
+To find out how they resolved and learnt from this issue, [click here!](./Learning%20Git%20with%20Real-Life%20Applications//4.%20Collaboration%20as%20A%20Team/3._Editing%26Deleting_The_%20Same_File.md) 
 
-### [*Storyline 4*](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
+### [*Storyline 4*](./Learning%20Git%20with%20Real-Life%20Applications/4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
 
 **Objective:**
 1. Recap creation of separate branches.
@@ -129,9 +129,9 @@ Both developer A and B modified their plans on their individual branches on the 
 
 When developer A decides to put their work together, he attempted to merge the branches. This caused a merge conflict.
 
-To find out how they they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
+To find out how they they resolved and learnt from this issue, [click here!](./Learning%20Git%20with%20Real-Life%20Applications/4.%20Collaboration%20as%20A%20Team/4._Merging_Different_Branches.md)
 
-### [*Storyline 5*](./4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
+### [*Storyline 5*](./Learning%20Git%20with%20Real-Life%20Applications/4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
 
 **Objective:**
 1. Learn what is a pull request.
@@ -142,7 +142,7 @@ To find out how they they resolved and learnt from this issue, [click here!](./4
 
 After working together for awhile, both Developers A and B realized that their way of merging their changes into the remote repository while working together cause a lot of conflicts/issues during the merge. Upon research, they decided to implement the pull request solution.
 
-To find out how they they resolved and learnt from this issue, [click here!](./4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
+To find out how they they resolved and learnt from this issue, [click here!](./Learning%20Git%20with%20Real-Life%20Applications//4.%20Collaboration%20as%20A%20Team/5._Making_A_Pull_Request.md)
 
 
 ## 5. Lessons Learnt
@@ -172,4 +172,4 @@ Here are some of the lessons learnt from this example.
 
 12. Merging branches by accepting pull request.
 
-A summary of all the git commands used can be found [here](../README.md).
+A summary of all the git commands used can be found [here](./GitSummary.md).

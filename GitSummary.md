@@ -1,10 +1,10 @@
-# Learning-and-Testing-with-Github
+# Quick Summary
 
 ## Summary
-This document will share a simple example on the use of git, a version control tool. You can follow along and get some hands on experience in the process.
+This document is a quick summary on the use of git, a version control tool.
 
-## Get Started
-Try out the example: [Example](./Learning%20Git%20with%20Real-Life%20Applications/TASKS.md)
+## Example
+Try out the example: [Example](./README.md)
 
 There are also some useful info you can refer to below.
 
