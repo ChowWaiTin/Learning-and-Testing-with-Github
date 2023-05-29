@@ -58,7 +58,8 @@ After the cloning of the remote repository is done, the team members can proceed
 
 Throughout this collaboration, Visual Studio Code will be used for the editing of document. The team will be using Git Bash in the terminal of Visual Studio Code.
 
-* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md) to view how set up Visual Studio code.
+* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Download%20and%20Install%20Visual%20Studio%20Code.md) to view how set up Visual Studio Code.
+* [Click here](./1.%20Setting%20up%20the%20Pre-requisites/Adding_VSCode_Extensions_for_Git.md) to install necessary Git extensions for Visual Studio Code.
 * [Click here](./1.%20Setting%20up%20the%20Pre-requisites) to learn how to use open up Git Bash in the terminal of Visual Studio code.
 
 
