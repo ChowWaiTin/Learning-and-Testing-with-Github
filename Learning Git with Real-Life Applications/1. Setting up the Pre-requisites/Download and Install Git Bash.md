@@ -14,4 +14,4 @@ Download and install Git Bash from [git-scm](https://git-scm.com/downloads).
       ```
       This is to check that you have installed Git Bash and the version installed
 
-You may return to [task.md](../TASKS.md#1-setting-up-the-pre-requisites)
+You may return [here](../../README.md#1-setting-up-the-pre-requisites)
