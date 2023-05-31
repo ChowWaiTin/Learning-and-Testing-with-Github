@@ -1,5 +1,7 @@
 # Adding VS Code Extensions for Git.
 
+Use `Ctrl + Shift + x` to access the extension tab in the VS Code.
+
 Install the following extensions in VSCode
 
 1. GitHub Pull Request and Issues
